@@ -1,0 +1,949 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* PRIMER HTML */
+
+body{
+    background-image: url(/Proyecto/image/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* menu principal */
+
+.logo-superior{
+    padding: 5px;
+    text-align: center;
+}
+
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    width: 100%;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+
+
+
+.caja{
+    
+    line-height: 300px;
+    text-align: center;
+    background-color: black;
+    border: 3px solid black;  
+}
+
+
+.c1{
+    grid-row: 1/3;
+    width: 750px;
+    height: 900px;
+    background-image: url(/Proyecto/image/piernas3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+    
+}
+
+
+.c1 a{
+border: 3px solid  rgba(216, 216, 61, 0.844);
+padding: 15px;
+color: black;
+background-color: rgba(128, 128, 128, 0.344);
+text-decoration: none;    
+}
+
+.c1:hover{
+    transform: scale(1.03);
+}
+
+.c2{
+    width: 500px;
+    height: 450px;
+    background-image: url(/Proyecto/image/pecho1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.c2 a {
+    border: 3px solid  rgba(216, 216, 61, 0.844);
+    padding: 15px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.344);
+    text-decoration: none;
+}
+
+.c2:hover {
+    transform: scale(1.03);
+
+}
+
+.c3{
+    width: 500px;
+    height: 450px;
+    background-image: url(/Proyecto/image/hombros1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+    }
+
+.c3 a{
+        border: 3px solid  rgba(216, 216, 61, 0.844);
+        padding: 15px;
+        color: black;
+        background-color: rgba(128, 128, 128, 0.344);
+        text-decoration: none;
+    }
+
+    .c3:hover{
+    transform: scale(1.03);
+}
+
+.c4{
+    width: 500px;
+    height: 450px;
+    background-image: url(/Proyecto/image/espalda2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.c4 a{
+    border: 3px solid rgba(216, 216, 61, 0.844);
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.c4:hover{
+    transform: scale(1.03);
+    background-color:rgba(216, 216, 61, 0.844);
+}
+
+
+
+.c5{
+    width: 500px;
+    height: 450px;
+    background-image: url(/Proyecto/image/brazo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+    }
+
+    .c5 a{
+        border: 3px solid  rgba(216, 216, 61, 0.844);
+        padding: 15px;
+        color: black;
+        background-color: rgba(128, 128, 128, 0.344);
+        text-decoration: none;
+    }
+   
+    .c5:hover{
+    transform: scale(1.03);
+
+}
+
+
+
+.c1, .c2, .c3, .c4, .c5, a:hover{
+    background-color:rgba(216, 216, 61, 0.844);
+    
+}
+
+/* menu principal */
+/* frase y logo */
+
+.logo-frase{
+    text-align: center;
+    padding: 50px;
+
+}
+
+.frase {
+    color: white;
+    padding: 25px;
+    font-style: italic;
+    font-size: 3.5em;
+}
+
+/* frase-logo */
+
+/* form-asesoramiento */
+/* pantalla chica */
+.form{
+    color: #fff;
+    padding: 0 1.5em;
+}
+
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.titulo{
+    padding: 40px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.titulo span{
+    color:  rgba(216, 216, 61, 0.844);
+}
+
+.agrupacion{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.agrupacion  *{
+    padding: 1em ;
+}
+
+.contacto-form{
+background: #222222;   
+}
+
+
+
+.contacto-info{
+    background: rgba(216, 216, 61, 0.844);  
+  }
+
+.contacto-form form button,
+.contacto-form form input,
+.contacto-form form textarea{
+width: 100%;
+padding: .7em;
+border: none;
+background: none;
+border-bottom: 1px solid  rgba(216, 216, 61, 0.844); 
+outline: 0;
+color: white;
+}
+
+.contacto-form form button{
+  background: gray; 
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+
+
+.contacto-form form button:hover,
+.contacto-form form button:focus {
+   
+    background:rgba(216, 216, 61, 0.844);
+    color: #fff;
+    transition: 1s ease-out;
+    outline: 0;
+}
+
+.contacto-form form p{
+   margin: 0;
+   padding: 1em;
+}
+
+.contacto-form form{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto-form form .block {
+
+    grid-column: 1/3;
+
+}
+
+.contacto-form h3{
+    font-size: 30px;
+}
+
+
+.contacto-info h4,
+.contacto-info ul,
+.contacto-info p{
+    text-align: center;
+    margin: 0 0 1rem;
+}
+
+.contacto-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contacto-info ul li{
+    padding: .3em;
+}
+
+/* pantalla chica */
+
+/* pantalla grande */
+
+ @media (min-width: 700px) {
+
+    .form{
+    padding: 0 4rem;   
+    } 
+    .agrupacion{
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    }
+    
+    .agrupacion *{
+        padding: 2em;
+    }
+    
+    .contacto-info h4,
+    .contacto-info ul,
+    .contacto-info p{
+    padding: 1em;
+    text-align: left;  
+    }
+    
+    .contacto-info h4{
+        font-size: 30px;
+    }
+    
+}
+    /* pantalla grnade */
+    /* footer */
+    .redes-sociales{
+        padding: 20px;
+        text-align: center;
+    
+    }
+
+    .redes-sociales a{
+        padding: 5px;
+        transition: all 1s;
+    }
+
+    .redes-sociales a:hover{
+        text-decoration: none;
+        transform: scale(1.03);
+    }
+
+    .redes-sociales svg{
+        color: white;
+    }
+    /* footer */
+
+   .footer-general{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.344);
+    padding: auto;
+    margin-top: auto;
+   }
+   
+   
+   .pecho, .inicio, .brazo, .hombro, .espalda{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   
+   
+   .footer-general a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+   }
+   
+   .footer-general a:hover{
+    transition: all 0.5s;
+    padding: 10px;    
+    }
+
+
+   footer p{
+    background-color: rgba(128, 128, 128, 0.344);
+    text-align: center;
+    font-size: 15px;
+   }
+   
+
+  /* footer */
+
+  /* ---------------------------------------------------------------------- */
+
+  /* // Extra small devices (portrait phones, less than 576px) */
+   
+   
+   @media (max-width: 575.98px) {
+    
+    body{
+        border: 3px solid  rgba(216, 216, 61, 0.844);  
+    }
+
+    .grid-layout{
+        display: inline;
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    .caja{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 60px;
+    padding: 20px; 
+    }
+
+    .logo-frase{
+        font-size: 10px;
+    }
+    
+    .logo-frase img{
+        width: 200px;
+        height: 140px; 
+    
+    }
+
+    .footer-general{
+        text-align: center;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.344);
+
+
+    }
+
+    .pecho, .inicio, .brazo, .hombro, .espalda{
+        padding: 2px;
+        padding-left: 10px;
+}
+}
+    
+  
+/* // Extra small devices (portrait phones, less than 576px)*/
+
+/* ---------------------------------------------------------------------------- */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    
+    .grid-layout{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    font-style: italic;
+    font-size: 30px;
+    }
+
+    .caja{
+        text-align: center;
+        background-color: black;
+        border: 3px solid black;  
+   }
+
+   .c1{
+    grid-column: 1/3;
+    width: 800px;
+    height: 300px;
+    background-image: url(/Proyecto/image/piernas3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+
+    
+}
+
+
+    .c1 a{
+    text-align: center;
+    border: 3px solid  rgba(216, 216, 61, 0.844);
+    color: black;
+    background-color: rgba(128, 128, 128, 0.344);
+    text-decoration: none;
+    
+    
+}
+
+.c2{   
+    width: 400px;
+    height: 350px;
+    background-image: url(/Proyecto/image/pecho1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.c2 a {
+    border: 3px solid  rgba(216, 216, 61, 0.844);
+    padding: 15px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.344);
+    text-decoration: none;
+}
+
+.c3{
+    width: 400px;
+    height: 350px;
+    background-image: url(/Proyecto/image/hombros1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+    }
+
+.c3 a{
+        border: 3px solid  rgba(216, 216, 61, 0.844);
+        padding: 15px;
+        color: black;
+        background-color: rgba(128, 128, 128, 0.344);
+        text-decoration: none;
+    }
+
+    .c4{
+        width: 400px;
+        height: 350px;
+        background-image: url(/Proyecto/image/espalda2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.5s;
+    }
+
+    .c4 a{
+        border: 3px solid rgba(216, 216, 61, 0.844);
+        padding: 15px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .c5{
+        width:400px;
+        height:350px;
+        background-image: url(/Proyecto/image/brazo3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.5s;
+        }
+    
+        .c5 a{
+            border: 3px solid  rgba(216, 216, 61, 0.844);
+            padding: 15px;
+            color: black;
+            background-color: rgba(128, 128, 128, 0.344);
+            text-decoration: none;
+        }
+ 
+        .logo-frase{
+            text-align: center;
+            padding: 50px;
+        
+        }
+        
+        .frase {
+            margin-top: 50px;
+            color: white;
+            padding: 25px;
+            font-style: italic;
+            font-size: 2.5em;
+        }
+       
+       
+       
+        .footer-general{
+            text-align: center;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(128, 128, 128, 0.344);
+        
+        
+            }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+ 
+/* ----------------------------------------------------------------- */
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+@media (min-width: 768px) and (max-width: 1366px){
+
+    .grid-layout{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        width: 100%;
+        font-style: italic;
+        font-size: 30px;
+        }
+    
+        .caja{
+            text-align: center;
+            background-color: black;
+            border: 3px solid black;  
+       }
+    
+       .c1{
+        grid-column: 1/3;
+        width: 100%;
+        height: 300px;
+        background-image: url(/Proyecto/image/piernas3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.5s;
+    
+        
+    }
+    
+    
+        .c1 a{
+        text-align: center;
+        border: 3px solid  rgba(216, 216, 61, 0.844);
+        color: black;
+        text-decoration: none;
+        
+        
+    }
+    
+    .c2{   
+        width: 100%;
+        height: 350px;
+        background-image: url(/Proyecto/image/pecho1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.5s;
+    }
+    
+    .c2 a {
+        border: 3px solid  rgba(216, 216, 61, 0.844);
+        padding: 15px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .c3{
+        width: 100%;
+        height: 350px;
+        background-image: url(/Proyecto/image/hombros1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.5s;
+        }
+    
+        .c3 a{
+            border: 3px solid  rgba(216, 216, 61, 0.844);
+            padding: 15px;
+            color: black;
+            text-decoration: none;
+        }
+    
+        .c4{
+            width: 100%;
+            height: 350px;
+            background-image: url(/Proyecto/image/espalda2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: all 0.5s;
+        }
+    
+        .c4 a{
+            border: 3px solid rgba(216, 216, 61, 0.844);
+            padding: 15px;
+            color: black;
+            text-decoration: none;
+        }
+    
+        .c5{
+            width:100%;
+            height:350px;
+            background-image: url(/Proyecto/image/brazo3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: all 0.5s;
+            }
+        
+            .c5 a{
+                border: 3px solid  rgba(216, 216, 61, 0.844);
+                padding: 15px;
+                color: black;
+                text-decoration: none;
+            }
+     
+            .logo-frase{
+                text-align: center;
+                padding: 50px;
+            
+            }
+            
+            .frase {
+                margin-top: 50px;
+                color: white;
+                padding: 25px;
+                font-style: italic;
+                font-size: 2.5em;
+            }
+
+            footer p{
+                font-size: 15px;
+            }
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+/* ------------------------------------------------------------------- */
+
+
+/* PRIMER HTML */
+
+    
+    /* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+    
+    /* PIERNA HTML */
+    
+    /* header */
+    
+    .logo-superior1{
+        text-align: center;
+        padding: 5px;
+        background-color: black;
+    }
+    
+    .nav-bg{
+        background-color: yellow;
+    }
+    
+    .nav-pierna{
+        display: flex;
+        justify-content: space-evenly;
+        flex: 1;
+        padding: 12px;
+        background-color: yellow;
+        list-style: none;
+    }
+
+    .item{
+        font-size: 20px;
+    
+    }
+    
+    .item a{
+        text-decoration: none;
+        color: black;
+        transition: 0.8s;
+        padding: 12px;
+    } 
+
+    .item a:hover{
+        background-color: black;
+        color: yellow;
+        border-right: 4px solid gray;
+        border-left: 4px solid gray;
+    }
+
+    /* header */
+
+    /* main */
+    
+    main h2{
+        text-align: center;
+        padding: 15px;
+        font-size: 35px;
+        color: yellow;
+    }
+
+    .ejercicios{
+        background-color: rgba(19, 16, 16, 0.733);
+    }
+
+    .ejercicios h3{
+        text-align: center;
+        font-size: 25px;
+        padding: 5px;
+        color: yellow;
+    }
+
+    .sentadilla{
+        border: 3px solid gray;
+        padding: 5px;
+        margin: 0 20px 0 20px;
+        box-shadow: 0 0 15px 0 rgba(216, 216, 61, 0.844);
+    }
+    
+    
+    .gif-texto{
+        display: flex;
+        flex: 1;
+    }
+
+
+    .gif-texto h4{
+        color: yellow;
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    
+    .gif-texto li, .extra{
+        padding: 5px;
+        font-size: 15px;
+        color: whitesmoke;
+        list-style: none;
+
+    }
+
+    .gif-texto .extra{
+        list-style: none;
+    }
+
+
+    .rumano{
+        
+        border: 3px solid gray;
+        padding: 5px;
+        margin: 20px 20px 0 20px;
+        box-shadow: 0 0 15px 0 rgba(216, 216, 61, 0.844);
+    }
+    
+    .bulgara{
+        border: 3px solid gray;
+        padding: 5px;
+        margin: 20px 20px 0 20px;
+        box-shadow: 0 0 15px 0 rgba(216, 216, 61, 0.844);    
+    }
+
+    .hip-thrust{
+        border: 3px solid gray;
+        padding: 5px;
+        margin: 20px 20px 0 20px;
+        box-shadow: 0 0 15px 0 rgba(216, 216, 61, 0.844);   
+    }
+
+    .extension-de-cuadriceps{
+        border: 3px solid gray;
+        padding: 5px;
+        margin: 20px 20px 0 20px;
+        box-shadow: 0 0 15px 0 rgba(216, 216, 61, 0.844);     
+    }
+
+    
+    /* main */
+        
+    @media (max-width: 575.98px) { 
+
+    main h2{
+        font-size: 25px;
+    }
+    
+    .sentadilla{
+        border: 3px solid gray;
+        padding: 5px;
+        margin: 0 5px 0 5px;
+        box-shadow: 0 0 15px 0 rgba(216, 216, 61, 0.844);
+    }
+
+    .ejercicios img{
+    width: 250px;
+    height: 250px;
+    }     
+
+    .ejercicios h3{
+        font-size: 20px;
+    }
+    
+    .gif-texto{
+    display: block;
+    }
+
+    .gif-texto li, .extra{
+        padding: 5px;
+        font-size: 15px;
+        color: whitesmoke;
+        list-style: none;
+    }
+    
+    .footer-general{
+        text-align: center;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.344);
+    } 
+
+    .footer-general a:hover{
+        transition: none;
+        padding: 2px;
+        }
+    
+
+    }
+
+    /* // Small devices (landscape phones, 576px and up) */
+    
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+
+        .ejercicios img{
+            width: 350px;
+            height: 350px;
+            }     
+        
+        
+        .gif-texto{
+        display: block;
+        }
+    }
+    /* // Small devices (landscape phones, 576px and up) */
+
+    /* // Medium devices (tablets, 768px and up) */
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .ejercicios img{
+            width: 450px;
+            height: 450px;
+        }
+        
+        .gif-texto{
+            text-align: center;
+            display: block;
+            }
+
+        .gif-texto li, .extra{
+            padding: 10px;
+            font-size: 15px;
+            color: whitesmoke;
+            list-style: none;
+        }   
+        
+
+    }
+    /* // Medium devices (tablets, 768px and up) */
+
+
+
+    /* PIERNA HTML */
+
+
+
